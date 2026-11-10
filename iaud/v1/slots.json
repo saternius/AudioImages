@@ -1,0 +1,278 @@
+{
+ "format": "IAUD",
+ "version": 1,
+ "slots": [
+  {
+   "name": "bg_0",
+   "parts": [
+    "bg_0_p0.png"
+   ],
+   "bytes": 2257981,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 4021038,
+   "seconds": 182.36,
+   "lufs": -16.0,
+   "trackId": "848a525f",
+   "partCount": 1
+  },
+  {
+   "name": "bg_0_32k",
+   "parts": [
+    "bg_0_32k_p0.png",
+    "bg_0_32k_p1.png"
+   ],
+   "bytes": 2800481,
+   "codec": 1,
+   "rate": 32000,
+   "samples": 5835520,
+   "seconds": 182.36,
+   "lufs": -16.0,
+   "trackId": "848a525f",
+   "partCount": 2
+  },
+  {
+   "name": "bg_0_lin16",
+   "parts": [
+    "bg_0_lin16_p0.png"
+   ],
+   "bytes": 6505589,
+   "codec": 2,
+   "rate": 22050,
+   "samples": 4021038,
+   "seconds": 182.36,
+   "lufs": -16.0,
+   "trackId": "848a525f",
+   "partCount": 1
+  },
+  {
+   "name": "bg_1",
+   "parts": [
+    "bg_1_p0.png"
+   ],
+   "bytes": 1887995,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 2870238,
+   "seconds": 130.17,
+   "lufs": -12.1,
+   "trackId": "95e04c53",
+   "partCount": 1
+  },
+  {
+   "name": "bg_2",
+   "parts": [
+    "bg_2_p0.png"
+   ],
+   "bytes": 1950633,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 3329550,
+   "seconds": 151.0,
+   "lufs": -14.8,
+   "trackId": "cf5846b1",
+   "partCount": 1
+  },
+  {
+   "name": "bg_3",
+   "parts": [
+    "bg_3_p0.png"
+   ],
+   "bytes": 1228141,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 2963520,
+   "seconds": 134.4,
+   "lufs": -25.1,
+   "trackId": "b9763f48",
+   "partCount": 1
+  },
+  {
+   "name": "bg_3_32k",
+   "parts": [
+    "bg_3_32k_p0.png",
+    "bg_3_32k_p1.png"
+   ],
+   "bytes": 1496959,
+   "codec": 1,
+   "rate": 32000,
+   "samples": 4300800,
+   "seconds": 134.4,
+   "lufs": -25.1,
+   "trackId": "b9763f48",
+   "partCount": 2
+  },
+  {
+   "name": "bg_4",
+   "parts": [
+    "bg_4_p0.png"
+   ],
+   "bytes": 2083750,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 3685878,
+   "seconds": 167.16,
+   "lufs": -15.5,
+   "trackId": "808e14d2",
+   "partCount": 1
+  },
+  {
+   "name": "bg_5",
+   "parts": [
+    "bg_5_p0.png"
+   ],
+   "bytes": 1040372,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 1764000,
+   "seconds": 80.0,
+   "lufs": -14.3,
+   "trackId": "60b2906d",
+   "partCount": 1
+  },
+  {
+   "name": "bg_6",
+   "parts": [
+    "bg_6_p0.png"
+   ],
+   "bytes": 1667133,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 2937060,
+   "seconds": 133.2,
+   "lufs": -15.1,
+   "trackId": "e5e0a33f",
+   "partCount": 1
+  },
+  {
+   "name": "bg_7",
+   "parts": [
+    "bg_7_p0.png"
+   ],
+   "bytes": 1758147,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 2694109,
+   "seconds": 122.182,
+   "lufs": -11.5,
+   "trackId": "5acb91a0",
+   "partCount": 1
+  },
+  {
+   "name": "bg_8",
+   "parts": [
+    "bg_8_p0.png"
+   ],
+   "bytes": 1935158,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 2822400,
+   "seconds": 128.0,
+   "lufs": -11.2,
+   "trackId": "ca9be9ba",
+   "partCount": 1
+  },
+  {
+   "name": "golden",
+   "parts": [
+    "golden_p0.png"
+   ],
+   "bytes": 10416,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 4192256,
+   "seconds": 190.125,
+   "lufs": 0.0,
+   "trackId": "474f4c44",
+   "partCount": 1
+  },
+  {
+   "name": "golden16",
+   "parts": [
+    "golden16_p0.png"
+   ],
+   "bytes": 45318,
+   "codec": 2,
+   "rate": 22050,
+   "samples": 4192256,
+   "seconds": 190.125,
+   "lufs": 0.0,
+   "trackId": "474f4c44",
+   "partCount": 1
+  },
+  {
+   "name": "test/badmagic",
+   "parts": [
+    "test/badmagic_p0.png"
+   ],
+   "bytes": 166,
+   "note": "no valid header: calibration ramp altered"
+  },
+  {
+   "name": "test/badramp",
+   "parts": [
+    "test/badramp_p0.png"
+   ],
+   "bytes": 171,
+   "note": "no valid header: calibration ramp altered"
+  },
+  {
+   "name": "test/corrupt",
+   "parts": [
+    "test/corrupt_p0.png"
+   ],
+   "bytes": 85,
+   "note": "no valid header: Command '['ffmpeg', '-v', 'error', '-i', 'hosting/iaud/v1/test/corrupt_p0.png', '-f', 'rawvideo', '-pix_fmt', 'gray', '-']' returned non-zero exit status 69."
+  },
+  {
+   "name": "test/goldenflip",
+   "parts": [
+    "test/goldenflip_p0.png"
+   ],
+   "bytes": 10209,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 4192256,
+   "seconds": 190.125,
+   "lufs": 0.0,
+   "trackId": "474f4c44",
+   "partCount": 1
+  },
+  {
+   "name": "test/oversize",
+   "parts": [
+    "test/oversize_p0.png"
+   ],
+   "bytes": 192,
+   "note": "no valid header: hosting/iaud/v1/test/oversize_p0.png: width 4096, expected 2048"
+  },
+  {
+   "name": "test/tiny",
+   "parts": [
+    "test/tiny_p0.png"
+   ],
+   "bytes": 216,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 16384,
+   "seconds": 0.743,
+   "lufs": 0.0,
+   "trackId": "54494e59",
+   "partCount": 1
+  },
+  {
+   "name": "test/wrapcheck",
+   "parts": [
+    "test/wrapcheck_p0.png"
+   ],
+   "bytes": 209,
+   "codec": 1,
+   "rate": 22050,
+   "samples": 20580,
+   "seconds": 0.933,
+   "lufs": 0.0,
+   "trackId": "474f4c44",
+   "partCount": 1
+  }
+ ]
+}

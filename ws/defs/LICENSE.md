@@ -108,3 +108,24 @@ cut out of their pages, wiki markup removed, shortened.
 
 **Open English WordNet**: © the English WordNet contributors, CC BY 4.0,
 https://github.com/globalwordnet/english-wordnet (changes: definitions selected, shortened and combined).
+
+## Casual definitions (`casual.py`, M50.17)
+
+User (2026-11-11): the definitions should be casual, explain all the meanings a word has, and still fit the window at a legible size. The window now
+shows text written by Claude Opus 5.5 (Message Batches API) wherever `casual/` has a line for the word; everything above remains the fallback and the
+checklist of meanings the model is given.
+
+- **Files (committed):** `casual/en.jsonl` and `casual/ja.jsonl`, one word a line, `{"w": WORD, "s": [sense, ...]}`; an English sense is
+  `{"p": n|v|adj|adv|other, "en", "ja", "es", "fr", "de"}`, a Japanese one `{"k": spelling, "en", "ja", "es", "fr", "de"}`. An empty `s` means the model
+  did not know the word. `casual/forms.tsv`: the English word forms (`WORD<TAB>i|o<TAB>tag:lemma:P[,...]`, i = the form's reading goes first), from
+  build_defs' rules. `casual/meta.json`: model, effort, prompt hashes.
+- **Rebuilding:** `python -I casual.py prepare --dl downloads` (a minute; writes `work/casual_items.json` and `casual/forms.tsv`), then
+  `python -I casual.py run --yes` sends only the words with no line in `casual/` (new words after a word-list change), waits, checks, asks again and saves.
+  `--sample N` sends a few; `--cap` (dollars, default 180) stops before the money spent would pass it; `status` shows the batches and the spend. The key
+  is `ANTHROPIC_API_KEY`, or the file `~/.anthropic-key`. Then `python -I compact.py`, and the M57 flow (Build Scene, `publish.py`, Build Scene).
+- **Checks** (`window_fit.py`, also used by compact.py): every text must show at the window's full 27 mm (5 lines of the 516 x 220 mm box, the font's
+  own advance widths and line height), use only characters M+ Rounded 1c has, and a Japanese spelling must be one of the word's JMdict spellings.
+  A text that fails is asked again with the reason, twice; after that compact.py keeps the lines that fit.
+- **Table text:** one meaning a line, `|` between lines (the window turns it into a line break), a bullet on each line when there are several.
+  Word forms: a label ("past tense of run", "runの過去形", "pasado de run") and the lemma's lines for that part of speech, fitted by compact.py.
+- **Needs:** `pip install anthropic fonttools`.

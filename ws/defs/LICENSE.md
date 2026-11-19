@@ -129,3 +129,24 @@ checklist of meanings the model is given.
 - **Table text:** one meaning a line, `|` between lines (the window turns it into a line break), a bullet on each line when there are several.
   Word forms: a label ("past tense of run", "runの過去形", "pasado de run") and the lemma's lines for that part of speech, fitted by compact.py.
 - **Needs:** `pip install anthropic fonttools`.
+
+## Meaning entries (`senses.py`, M74)
+
+User (2026-11-18): each meaning of a word should open a window of its own with a longer explanation and example sentences
+(`Docs/spec/M74-meaning-windows.md`). An entry is written for every casual sense that some English record shows; a word form's lines are its lemma's,
+so one entry serves every record that shows the line. English words and English text only, for now.
+
+- **Files (committed):** `senses/en.jsonl`, one word a line, `{"w": WORD, "s": {"<sense index in casual/en.jsonl>": {"x": explanation,
+  "e": [examples, the word between asterisks]}}}`; `senses/meta.json`: model, effort, prompt hash.
+- **Rebuilding:** `python -I senses.py prepare` (seconds; matches every record line of `out/world/defs_en_en.txt` to its casual sense and writes
+  `work/senses_items.json`), then `python -I senses.py run --yes` sends only the senses with no entry yet, waits, checks, asks again and saves.
+  `--sample N` sends a few (a pilot list first); `--cap` (dollars, default 20: raise it for the whole run) stops before the money spent would pass
+  it; `status` shows the batches and the spend. The key is casual.py's. Then `python -I senses.py files`, and the M57 flow (Build Scene, `publish.py`,
+  Build Scene).
+- **Checks:** `window_fit.sense_size` is the window's own layout, ported (`DefinitionWindow.Wrap`; the meaning's 516 x 278 mm box; the number and the
+  one-line meaning hung beside a 34 mm column, the explanation, each example in quotes). An entry that would show under 21 mm loses a third example
+  or is asked again with that said; every character must be in the font.
+- **The world's files:** `files` writes `out/world/senses_en_en_NN.txt` (WSEN1, about 256 KB each, records in key order, a record's map from its
+  meaning lines to entries) and `senses_en_en.idx` (each file's first key), and only when every meaning line has its entry: a part-written set would
+  show buttons that open nothing (`--partial --out DIR` writes what there is, for looking, never to the world's folder). `export FILE.json` is the
+  review page's data.

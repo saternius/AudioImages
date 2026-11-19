@@ -1,0 +1,76 @@
+WSIX1 2
+T	0	2
+T	1	2
+T	2	2
+T	3	2
+T	4	2
+T	5	2
+T	6	2
+T	7	2
+T	8	2
+T	9	2
+S	0	2	0	AARDVARK
+S	1	2	0	AMMUNITION
+S	2	2	0	AUTOCRACY
+S	3	2	0	BIND
+S	4	2	0	BRIEF
+S	5	2	0	CATO
+S	6	2	0	CLOUT
+S	7	2	0	CONTAINER
+S	8	2	0	CUPCAKE
+S	9	2	0	DESK
+S	10	2	0	DOOM
+S	11	2	0	EMPHATIC
+S	12	2	0	EXTRADITION
+S	13	2	0	FLIRTY
+S	14	2	0	GARGLE
+S	15	2	0	GROWL
+S	16	2	0	HIT
+S	17	2	0	INACCURATELY
+S	18	2	0	IRRITATE
+S	19	2	0	LAZYEIGHT
+S	20	2	0	MAFIA
+S	21	2	0	MILLENNIUM
+S	22	2	0	NARROWLY
+S	23	2	0	ONGUARD
+S	24	2	0	PASSER
+S	25	2	0	PLAYWRIGHTS
+S	26	2	0	PROFILE
+S	27	2	0	RATTLE
+S	28	2	0	RESCUE
+S	29	2	0	SAGA
+S	30	2	0	SEVERALLY
+S	31	2	0	SLED
+S	32	2	0	SPLINT
+S	33	2	0	STRUGGLE
+S	34	2	0	TAP
+S	35	2	0	TOOTHACHE
+S	36	2	0	UNBROKEN
+S	37	2	0	VARIANT
+S	38	2	0	WHISPERED
+W	0	0	No definition for this word yet.
+W	0	1	このことばのいみは まだ のっていません。
+W	0	2	Aún no hay definición en español.
+W	0	3	Pas encore de définition en français.
+W	0	4	Noch keine deutsche Definition.
+W	1	0	Loading the definitions...
+W	1	1	いみを よみこんでいます...
+W	1	2	Cargando las definiciones...
+W	1	3	Chargement des définitions...
+W	1	4	Die Definitionen werden geladen...
+W	2	0	The definitions could not be loaded. Open the window again in a few minutes.
+W	2	1	いみを よみこめませんでした。 しばらくしてから もういちど ひらいてください。
+W	2	2	No se pudieron cargar las definiciones. Vuelve a abrir la ventana en unos minutos.
+W	2	3	Les définitions n'ont pas pu être chargées. Rouvrez la fenêtre dans quelques minutes.
+W	2	4	Die Definitionen konnten nicht geladen werden. Öffne das Fenster in ein paar Minuten noch einmal.
+W	3	0	Condensed Summary of: 
+W	3	1	しゅってんの ようやく: 
+W	3	2	Resumen condensado de: 
+W	3	3	Résumé condensé de : 
+W	3	4	Kurzfassung aus: 
+W	4	0	(English) 
+W	5	0	Loading the longer entry...
+W	6	0	The longer entry could not be loaded. Open it again in a few minutes.
+W	7	0	There is no longer entry for this meaning yet.
+W	8	0	Simplified for VRC WordSearch with guidance from: 
+W	9	0	Open English WordNet (CC BY) · Japanese WordNet · JMdict, EDRDG · Wiktionary (CC BY-SA) · MCR · OdeNet

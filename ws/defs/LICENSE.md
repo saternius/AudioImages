@@ -130,6 +130,27 @@ checklist of meanings the model is given.
   Word forms: a label ("past tense of run", "runの過去形", "pasado de run") and the lemma's lines for that part of speech, fitted by compact.py.
 - **Needs:** `pip install anthropic fonttools`.
 
+## Every meaning of every word (`allsenses.py`, M50.23)
+
+casual.py wrote at most five senses a word and never held a reply against the dictionary; allsenses.py adds what is missing and keeps what is
+written. It is the step to run after a word-list change now (casual.py still writes the Japanese words).
+
+- **What it sends:** every English word a stroke can find (`valid_words.txt`), the planted words, the words the world's table holds, and every
+  lemma a word form is built from: each with the senses it has (they stay, in their places) and ALL of its WordNet senses as numbered notes. A
+  word that has a sense and at most one note is settled without asking.
+- **What comes back:** the senses to add, English only (`{"p", "en"}`), and `cover`: for each note the number of the sense that covers it. The
+  check wants a number for every note, each naming a sense of the note's part of speech, and an added sense in at most two lines of the window;
+  a reply that fails is asked again with what was wrong (three rounds).
+- **Kept in** `casual/en.jsonl` (the added senses after the ones a word had) and `casual/cover.jsonl` (`{"w", "ss": [the synsets it was held
+  against], "c": [the sense covering each]}`): a word is asked again only when its WordNet senses change.
+- **Rebuilding:** `python -I allsenses.py prepare --dl downloads` (ten seconds; writes `work/allsenses_items.json` and `casual/forms.tsv` for
+  the whole valid list), `python -I allsenses.py run --yes` (resumable: `work/allsenses_state.json`; `--cap` dollars; `--sample N` for a trial
+  that also measures the cost), `status`. Then `compact.py`, `senses.py prepare` and `run` (the new senses' entries), `senses.py files`, and
+  `publish.py live`. Needs `downloads/oewn`, `oewn_wndb_x`, `pwn30_x`, `agid_x` (the curls above; the WNDB zip is on the project's GitHub
+  releases when en-word.net is down).
+- **The window** shows what fits above a MORE row and lengthens for the rest, so `compact.py` drops no line (a record holds up to
+  `MAX_MEANINGS` = 50). `window_fit.word_size` is the window's rule, ported.
+
 ## Meaning entries (`senses.py`, M74)
 
 User (2026-11-18): each meaning of a word should open a window of its own with a longer explanation and example sentences

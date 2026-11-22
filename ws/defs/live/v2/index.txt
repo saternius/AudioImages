@@ -1,0 +1,150 @@
+WSIX1 3
+T	0	3
+T	1	3
+T	2	3
+T	3	3
+T	4	3
+T	5	3
+T	6	3
+T	7	3
+T	8	3
+T	9	3
+S	0	3	0	AAH
+S	1	3	0	ACTIVATED
+S	2	3	0	AGRYPNIAS
+S	3	3	0	AMISS
+S	4	3	0	ANTIMYCOTIC
+S	5	3	0	AROID
+S	6	3	0	AUCTIONEER
+S	7	3	0	BALL
+S	8	3	0	BEAT
+S	9	3	0	BILL
+S	10	3	0	BLOTTER
+S	11	3	0	BOUNDS
+S	12	3	0	BRUSH
+S	13	3	0	CAESARIAN
+S	14	3	0	CARDIOGRAPH
+S	15	3	0	CENTRAL
+S	16	3	0	CHILIASTIC
+S	17	3	0	CLEAN
+S	18	3	0	COLDWORK
+S	19	3	0	CONCILIABLE
+S	20	3	0	CONTRIVANCE
+S	21	3	0	COURIERS
+S	22	3	0	CRUCIFIXION
+S	23	3	0	DAINTY
+S	24	3	0	DEFENSELESS
+S	25	3	0	DESICCATES
+S	26	3	0	DINGIEST
+S	27	3	0	DISTURBANCE
+S	28	3	0	DRAWER
+S	29	3	0	EATABLE
+S	30	3	0	EMPIRICAL
+S	31	3	0	EPISTOLATORY
+S	32	3	0	EXCORIATING
+S	33	3	0	FAKER
+S	34	3	0	FIDDLEHEAD
+S	35	3	0	FLEWS
+S	36	3	0	FORGE
+S	37	3	0	FULLNESS
+S	38	3	0	GENERALLY
+S	39	3	0	GODLESS
+S	40	3	0	GROIN
+S	41	3	0	HANDBELL
+S	42	3	0	HEFT
+S	43	3	0	HOLOTHURIAN
+S	44	3	0	HUSBANDOS
+S	45	3	0	IMPEDE
+S	46	3	0	INEXTRICABLY
+S	47	3	0	INTERLINEAR
+S	48	3	0	JAGGY
+S	49	3	0	KERN
+S	50	3	0	LANDFORM
+S	51	3	0	LETHALITY
+S	52	3	0	LIVING
+S	53	3	0	LUTHIER
+S	54	3	0	MANUMIT
+S	55	3	0	MEGALANIA
+S	56	3	0	MILLICURIES
+S	57	3	0	MONARDA
+S	58	3	0	MUMMICHOG
+S	59	3	0	NEIGHBOUR
+S	60	3	0	NOOKY
+S	61	3	0	OFFICIALDOM
+S	62	3	0	OSTENSIBLE
+S	63	3	0	PAGE
+S	64	3	0	PASSIVITY
+S	65	3	0	PERIJOVE
+S	66	3	0	PILE
+S	67	3	0	PLOUGH
+S	68	3	0	POSSESSION
+S	69	3	0	PRETORIAL
+S	70	3	0	PROTEIN
+S	71	3	0	PYRRHIC
+S	72	3	0	RANCH
+S	73	3	0	RECURVATE
+S	74	3	0	REMOVAL
+S	75	3	0	RETROFLEXION
+S	76	3	0	ROLL
+S	77	3	0	SADDLED
+S	78	3	0	SCARP
+S	79	3	0	SECTOR
+S	80	3	0	SHADERS
+S	81	3	0	SHRIVELLED
+S	82	3	0	SKREAK
+S	83	3	0	SNIVELER
+S	84	3	0	SPANS
+S	85	3	0	SPRITZ
+S	86	3	0	STERILE
+S	87	3	0	STRUCK
+S	88	3	0	SUPERANNUATE
+S	89	3	0	SYNCRATE
+S	90	3	0	TEASER
+S	91	3	0	THINGUMABOB
+S	92	3	0	TOIL
+S	93	3	0	TRANSMITTAL
+S	94	3	0	TUFF
+S	95	3	0	UNCLOGGED
+S	96	3	0	UNLEARNING
+S	97	3	0	UPHEAVE
+S	98	3	0	VERIFIED
+S	99	3	0	VULVAL
+S	100	3	0	WETNESS
+S	101	3	0	WOMANLIKE
+S	102	3	0	ZOMBI
+W	0	0	No definition for this word yet.
+W	0	1	このことばのいみは まだ のっていません。
+W	0	2	Aún no hay definición en español.
+W	0	3	Pas encore de définition en français.
+W	0	4	Noch keine deutsche Definition.
+W	1	0	Loading the definitions...
+W	1	1	いみを よみこんでいます...
+W	1	2	Cargando las definiciones...
+W	1	3	Chargement des définitions...
+W	1	4	Die Definitionen werden geladen...
+W	2	0	The definitions could not be loaded. Open the window again in a few minutes.
+W	2	1	いみを よみこめませんでした。 しばらくしてから もういちど ひらいてください。
+W	2	2	No se pudieron cargar las definiciones. Vuelve a abrir la ventana en unos minutos.
+W	2	3	Les définitions n'ont pas pu être chargées. Rouvrez la fenêtre dans quelques minutes.
+W	2	4	Die Definitionen konnten nicht geladen werden. Öffne das Fenster in ein paar Minuten noch einmal.
+W	3	0	Condensed Summary of: 
+W	3	1	しゅってんの ようやく: 
+W	3	2	Resumen condensado de: 
+W	3	3	Résumé condensé de : 
+W	3	4	Kurzfassung aus: 
+W	4	0	(English) 
+W	5	0	Loading the longer entry...
+W	6	0	The longer entry could not be loaded. Open it again in a few minutes.
+W	7	0	There is no longer entry for this meaning yet.
+W	8	0	Simplified for VRC WordSearch with guidance from: 
+W	9	0	Open English WordNet (CC BY) · Japanese WordNet · JMdict, EDRDG · Wiktionary (CC BY-SA) · MCR · OdeNet
+W	10	0	▼ {0} more
+W	10	1	▼ ほか {0} けん
+W	10	2	▼ {0} más
+W	10	3	▼ {0} de plus
+W	10	4	▼ {0} weitere
+W	11	0	▲ show less
+W	11	1	▲ とじる
+W	11	2	▲ ver menos
+W	11	3	▲ voir moins
+W	11	4	▲ weniger zeigen
